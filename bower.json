@@ -1,0 +1,21 @@
+{
+  "name": "owlecup",
+  "homepage": "https://github.com/Katreque/owlecup",
+  "authors": [
+    "Katreque <renanverissimo@uol.com.br>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  }
+}

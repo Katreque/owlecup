@@ -1,0 +1,26 @@
+{
+  "name": "owlecup",
+  "version": "0.0.1",
+  "description": "The Owl Cup website project! >> owlecup.com",
+  "main": "app/index.html",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katreque/owlecup.git"
+  },
+  "author": "Katreque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katreque/owlecup/issues"
+  },
+  "homepage": "https://github.com/Katreque/owlecup#readme"
+}
