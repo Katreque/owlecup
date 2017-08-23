@@ -3,14 +3,16 @@
 
   angular.module('owlecup')
     .config(['$routeProvider', function($routeProvider){
-
       $routeProvider
-        .when('/home', {
-          controller: 'controllerHome',
-          controllerAs: 'controlhome',
-          templateUrl: './app/index.html'
+
+        .when('/', {
+          templateUrl: './app/views/home.html'
         })
 
-        .otherwise({redirectTo: '/home'});
+        .otherwise({redirectTo: '/'});
+    }])
+
+    .config(['$locationProvider', function($locationProvider){
+        $locationProvider.html5Mode(true);
     }])
 }())
