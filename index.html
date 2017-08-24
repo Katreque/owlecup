@@ -4,15 +4,20 @@
     <base href="/">
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="./app/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="./app/styles/style.css"/>
+    <link rel="stylesheet" href="./app/styles/position.css"/>
     <title>Owl e-Cup | A maior Copa universitária de e-Sports</title>
   </head>
   <body>
+
     <div ng-include=" './app/includes/navbar.html' "></div>
     <main>
       <div ng-view></div>
     </main>
+    <div ng-include=" './app/includes/footer.html' "></div>
+
       <script type="text/javascript" src="./app/bower_components/jquery/dist/jquery.min.js"></script>
       <script type="text/javascript" src="./app/bower_components/angular/angular.min.js"></script>
       <script type="text/javascript" src="./app/bower_components/angular-route/angular-route.min.js"></script>
