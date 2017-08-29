@@ -2,6 +2,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+p {
+  font-size: 18px;
+}
+
 a {
   color: #041A91;
 }
