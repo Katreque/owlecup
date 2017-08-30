@@ -20,6 +20,10 @@ a:focus, a:hover {
   color: white;
 }
 
+.jumbotronPages {
+  background-color: #0066b7;
+}
+
 .divLinkHeader {
   padding: 20px 15px;
 }

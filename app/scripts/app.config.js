@@ -9,6 +9,18 @@
           templateUrl: './app/views/home.html'
         })
 
+        .when('/participar', {
+          templateUrl: './app/views/participar.html'
+        })
+
+        .when('/regras', {
+          templateUrl: './app/views/regras.html'
+        })
+
+        .when('/sobre', {
+          templateUrl: './app/views/sobre.html'
+        })
+
         .otherwise({redirectTo: '/'});
     }])
 
