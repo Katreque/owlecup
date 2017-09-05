@@ -32,6 +32,10 @@ a:focus, a:hover {
   padding: 5px;
 }
 
+.corAtencao {
+  color: #FF5722;
+}
+
 .imageAni {
   animation: fadein 2s;
   -webkit-animation: fadein 2s;
