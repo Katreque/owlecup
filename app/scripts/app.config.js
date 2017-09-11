@@ -6,7 +6,13 @@
       $routeProvider
 
         .when('/', {
+          controller: 'homeController',
+          controllerAs: 'homeCtrl',
           templateUrl: './app/views/home.html'
+        })
+
+        .when('/tabelas', {
+          templateUrl: './app/views/tabelas.html'
         })
 
         .when('/participar', {
@@ -14,6 +20,8 @@
         })
 
         .when('/regras', {
+          controller: 'regrasController',
+          controllerAs: 'regrasCtrl',
           templateUrl: './app/views/regras.html'
         })
 

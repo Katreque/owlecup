@@ -12,6 +12,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
+  color: #FF5722;
 }
 
 .jumbotron {
@@ -34,6 +35,20 @@ a:focus, a:hover {
 
 .corAtencao {
   color: #FF5722;
+}
+
+.homeAniF1.start{
+  animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -o-animation: fadein 3s;
+}
+
+.homeAniF2.start{
+  animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -o-animation: fadein 3s;
 }
 
 .imageAni {
