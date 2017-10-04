@@ -9,9 +9,6 @@
       function($scope, ativaAnimacao, $location){
         $(window).scroll(function(){
           ativaAnimacao.verificaAnimacao('.homeAniF1');
-        })
-
-        $(window).scroll(function(){
           ativaAnimacao.verificaAnimacao('.homeAniF2');
         })
 

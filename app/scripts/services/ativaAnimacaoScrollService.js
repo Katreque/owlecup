@@ -9,27 +9,25 @@
 
         }
 
-        elementoNaTela(elem){
-          var $elem = $(elem);
-              
-              var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
-              var viewportTop = $(scrollElem).scrollTop();
-              var viewportBottom = viewportTop + $(window).height();
-
-              var elemTop = Math.round($elem.offset().top);
-              var elemBottom = elemTop + $elem.height();
-
-              return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
-        }
-
         verificaAnimacao(elem){
-        var $elem = $(elem);
-          if ($elem.hasClass('start'))
-            return;
+          var $elem = $(elem);
+          var $window = $(window);
 
-          if (this.elementoNaTela($elem)) {
-              $elem.addClass('start');
-          }
+          var window_height = $window.height();
+          var window_top_position = $window.scrollTop();
+          var window_bottom_position = (window_top_position + window_height);
+
+          $.each($elem, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)){
+              return $elem.addClass('start');
+            }
+            return;
+          })
         }
       }
 
