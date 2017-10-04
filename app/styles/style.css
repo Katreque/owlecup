@@ -45,10 +45,10 @@ a:focus, a:hover {
 }
 
 .homeAniF2.start{
-  animation: fadein 3s;
-  -webkit-animation: fadein 3s;
-  -moz-animation: fadein 3s;
-  -o-animation: fadein 3s;
+  animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -o-animation: fadein 4s;
 }
 
 .imageAni {
